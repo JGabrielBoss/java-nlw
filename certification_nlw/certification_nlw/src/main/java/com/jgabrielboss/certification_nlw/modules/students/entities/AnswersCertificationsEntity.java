@@ -4,6 +4,7 @@ import java.util.UUID;
 
 import org.hibernate.annotations.CreationTimestamp;
 
+import java.time.LocalDateTime;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -29,14 +30,14 @@ public class AnswersCertificationsEntity {
     private UUID certificationID;
 
     @ManyToOne
-    @JoinColumn(name = "certification_id")
+    @JoinColumn(name = "certification_id", insertable = false, updatable = false)
     private CertificationStudentEntity certificationStudentEntity;
 
     @Column(name = "student_id")
     private UUID studentID;
 
     @ManyToOne
-    @JoinColumn(name = "student_id")
+    @JoinColumn(name = "student_id", insertable = false, updatable = false)
     private StudentEntity studentEntity;
 
     @Column(name = "question_id")
@@ -48,4 +49,6 @@ public class AnswersCertificationsEntity {
     @Column(name = "is_orrect")
     private boolean isCorrect;
 
+    @CreationTimestamp
+    private LocalDateTime createdAt;
 }
