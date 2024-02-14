@@ -1,8 +1,9 @@
-#Projeto Java - Evento NLW Expert | Rocketseat
+# Projeto Java Spring Boot - Evento NLW Expert | Rocketseat
 
-Bem-vindo ao Projeto de Certificados
+Projeto de Certificados
 
 Como Funciona
+
 Cadastro:
 
 O usuário inicia o processo inserindo seu e-mail.
@@ -24,9 +25,9 @@ Top 10 de Acertos:
 
 Uma funcionalidade é o ranking dos melhores desempenhos. Um top 10 é gerado com base nas notas dos alunos, destacando aqueles que se destacaram nas certificações.
 
-Tecnologias Utilizadas
-Java: Linguagem poderosa para desenvolvimento backend.
-Maven: Gerenciador de dependências para simplificar o processo de construção.
-Vscode: Ambiente de desenvolvimento integrado para facilitar a codificação.
-Rest client (HTTPie): Ferramenta para testar chamadas HTTP e integrar com APIs.
-Docker: Utilizado para configurar e gerenciar o banco de dados PostgreSQL.
+## Tecnologias Utilizadas
+* Java: Linguagem poderosa para desenvolvimento backend.
+* Maven: Gerenciador de dependências para simplificar o processo de construção.
+* Vscode: Ambiente de desenvolvimento integrado para facilitar a codificação.
+* Rest client (HTTPie): Ferramenta para testar chamadas HTTP e integrar com APIs.
+* Docker: Utilizado para configurar e gerenciar o banco de dados PostgreSQL.
