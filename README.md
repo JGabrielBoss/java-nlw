@@ -1,7 +1,7 @@
 # java-nlw
  Projeto da rocketseat em java
 
- #Tecnologias Utilizadas:
+#Tecnologias Utilizadas:
 
  Java: Linguagem poderosa para desenvolvimento backend.
  Maven: Gerenciador de dependências para simplificar o processo de construção.
