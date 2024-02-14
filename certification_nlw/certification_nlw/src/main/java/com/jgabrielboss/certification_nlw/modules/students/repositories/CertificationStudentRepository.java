@@ -1,9 +1,11 @@
 package com.jgabrielboss.certification_nlw.modules.students.repositories;
 
+import java.util.List;
+import java.util.UUID;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
-import java.util.List;
 
 import com.jgabrielboss.certification_nlw.modules.students.entities.CertificationStudentEntity;
 
